@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:onClick="songPicked"
+    android:paddingRight="0dp">
+
+    <TextView
+        android:id="@+id/song_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/songTitle"
+        android:textSize="@dimen/textSize"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/song_artist"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/songArtist"
+        android:textSize="@dimen/textSize"/>
+
+</LinearLayout>
